@@ -1,0 +1,142 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f5f5dc; /* Warna krem untuk latar belakang */
+    color: #333; /* Warna hitam untuk teks */
+    line-height: 1.7;
+    padding: 20px;
+    transition: background-color 0.3s ease;
+}
+
+/* Layout */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header, .footer {
+    background-color: #b22222; /* Warna merah untuk latar belakang */
+    color: #fff; /* Warna putih untuk teks */
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.main-content {
+    background-color: #fff; /* Latar belakang konten utama putih */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+    margin-bottom: 40px;
+}
+
+/* Flexbox Layout */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+}
+
+/* Typography */
+h1, h2, h3 {
+    color: #000; /* Warna hitam untuk judul */
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+p {
+    margin-bottom: 20px;
+    line-height: 1.8;
+    color: #666; /* Warna abu-abu untuk paragraf */
+}
+
+a {
+    color: #e74c3c; /* Warna merah untuk tautan */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #c0392b; /* Warna merah lebih gelap untuk tautan saat hover */
+}
+
+/* Buttons */
+.button {
+    display: inline-block;
+    background-color: #e74c3c; /* Warna merah untuk tombol */
+    color: #fff; /* Warna putih untuk teks tombol */
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+    background-color: #c0392b; /* Warna merah lebih gelap saat hover */
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Footer */
+.footer {
+    margin-top: 40px;
+    padding: 30px;
+    background-color: #b22222; /* Warna merah untuk latar belakang */
+    color: #fff; /* Warna putih untuk teks */
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer p {
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+}
