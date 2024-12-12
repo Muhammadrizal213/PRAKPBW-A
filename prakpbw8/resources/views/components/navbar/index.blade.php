@@ -12,6 +12,7 @@
         <x-navbar.link href="/about" >About</x-navbar.link>
         <x-navbar.link href="/contact">Contact</x-navbar.link>
         <x-navbar.link href="/gallery">Gallery</x-navbar.link>
+        <x-navbar.link href="/users">users</x-navbar.link>
       </div>
       <div>
       </nav>
