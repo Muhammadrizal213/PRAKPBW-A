@@ -29,3 +29,7 @@ Video 5
 
 Video 6
 ![Screenshot (1264)](https://github.com/user-attachments/assets/83d6ff85-d2ac-465b-9c6e-9bdca5691052)
+
+Video 7
+![Screenshot (1266)](https://github.com/user-attachments/assets/7ec6e58b-39f0-4125-bd19-e0ebe229b7bd)
+![Screenshot (1265)](https://github.com/user-attachments/assets/848a6431-d27b-485b-bf41-7314c9708017)
